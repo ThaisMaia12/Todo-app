@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scalale=1.0">
+    <title>Minhas Tarefas</title>
+    <Link rel="stylesheet" href="style/styles.css"/>
+
+</head>
+<body>
+    
+    <div class="todo-container">
+    <h2>Minhas Tarefas</h2>
+
+    <div class="todo-header">
+    <input type="text"id="new-task" placeholder="digite uma nova tarefa...."/>
+    <button id="add-task">Adicionar</button>
+
+    </div>
+    <ul id="tasks-list"></ul>
+
+    <button id="Logout">Sair</button>
+
+    </div>
+
+    <div class = "filter-buttons">
+    <button data-filter = "all" class="filter active">Todas</button>
+    <button data-filter = "completed" class="filter">Concluídas</button>
+    <button data-filter = "pending" class="filter">Pendentes</button>
+</div>
+
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
